@@ -1,0 +1,22 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora UDEA",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessatocasuche/Calculadora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessatocasuche/Calculadora/issues"
+  },
+  "homepage": "https://github.com/vanessatocasuche/Calculadora#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
