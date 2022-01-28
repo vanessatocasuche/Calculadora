@@ -4,7 +4,7 @@
   "description": "Calculadora UDEA",
   "main": "calculator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/vanessatocasuche/Calculadora#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+
   }
 }
