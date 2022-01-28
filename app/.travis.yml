@@ -1,0 +1,7 @@
+# instrucciones para travis para que haaga el sbuild
+
+language: node_js
+node_js:
+- "12"
+install:
+- 'npm install'
