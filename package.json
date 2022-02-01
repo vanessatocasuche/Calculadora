@@ -4,7 +4,10 @@
   "description": "Calculadora UDEA",
   "main": "calculator.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "npm install coveralls --save-dev",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+
   },
   "repository": {
     "type": "git",
@@ -21,7 +24,8 @@
   },
   "devDependencies": {
     "chai": "^4.3.6",
+    "coveralls": "^3.1.1",
+    "istanbul": "^1.1.0-alpha.1",
     "mocha": "^9.2.0"
-
   }
 }
